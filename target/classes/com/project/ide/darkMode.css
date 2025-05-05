@@ -1,0 +1,86 @@
+.root {
+    -fx-base: #1e1e1e;
+    -fx-background: #1e1e1e;
+    -fx-text-fill: #d4d4d4;
+}
+
+* {
+    -fx-font-family: "Consolas";
+}
+
+.text-area {
+    -fx-control-inner-background: #1e1e1e;
+    -fx-text-fill: #d4d4d4;
+    -fx-highlight-fill: #264F78;
+    -fx-highlight-text-fill: white;
+    -fx-font-family: "Consolas";
+}
+
+.console-area {
+    -fx-control-inner-background: #1e1e1e;
+    -fx-text-fill: #d4d4d4;
+    -fx-font-family: "Consolas";
+}
+
+.line-number {
+    -fx-background-color: #1e1e1e;
+    -fx-text-fill: #808080;
+    -fx-font-family: "Consolas";
+    -fx-padding: 0 10px 0 10px;
+}
+
+.plain-text {
+    -fx-fill: #d4d4d4;
+}
+
+.search-highlight {
+    -fx-fill: rgb(255, 255, 0);
+    -fx-background-color: rgb(255, 255, 0);
+}
+
+.code-area {
+    -fx-background-color: #1e1e1e;
+    -fx-text-fill: #d4d4d4;
+}
+
+.keyword {
+    -fx-fill: #569CD6;
+    -fx-font-weight: bold;
+}
+
+.string {
+    -fx-fill: #CE9178;
+}
+
+.comment {
+    -fx-fill: #6A9955;
+    -fx-font-style: italic;
+}
+
+.code-area .caret-row {
+    -fx-background-color: transparent;
+}
+
+.file-explorer .tree-cell {
+    -fx-background-color: #2e2e2e;
+    -fx-text-fill: white;
+    -fx-font-family: Consolas;
+    -fx-font-size: 13px;
+}
+
+.file-explorer .tree-cell:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.file-explorer .tree-cell:filled:selected {
+    -fx-background-color: #555555;
+    -fx-text-fill: white;
+}
+
+.code-area .caret-row {
+    -fx-background-color: #333333;
+}
+
+.code-area .caret {
+    -fx-stroke: white;
+}
