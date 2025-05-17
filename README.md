@@ -6,9 +6,8 @@ A mini java project that aims to create a working IDE like VS code
   Richtext <br>
   Java IO <br>
   css <br>  
-  
-  
 
+  
 ## Install Guide
 
 **Windows Install Guide:**
@@ -39,9 +38,6 @@ A mini java project that aims to create a working IDE like VS code
     ```
 
    <br>
-   
-
-<br>
 
 
 ## IDE Features 
@@ -57,56 +53,22 @@ This project simulates the working of a java IDE with the following operations:
   - Switch between light mode and dark mode <br>
   - Open terminal <br>
 
-## IDE Features
-The order is as follows from top to bottom:
-- merge PDF
-- Convert PDF to Word
-- Compress PDF
-- Encrypt PDF
-- Decrypt PDF
+## IDE images
 
-## Simple Use Case examples
-You can try simple commands in your terminal that perform a single operation as follows: 
-
--  #### To Merge 2 PDF's and save it with a name you specify:<br>
-
-```
-  python main.py -m -f "path\to\your\pdf1" "path\to\your\pdf2" -s 'merged-pdf.pdf'
-```
+### IDE default look <br>
 <br>
 
--  #### To Encrypt a PDF:<br>
+![Diagram](images/BasicIDE.jpg)
 
- ```
-  python main.py -f "path\to\your\pdf" -e 'password-to-encrypt-with'
- ``` 
-   <br>
-   
--  #### To convert a PDF to a Word Document:<br>
-
-  ```
-  python main.py -f "path\to\your\pdf" -w
-  ``` 
-   <br>
-   
--  #### To decrypt a file:<br>
-
-  ```
-  python main.py -f "path\to\your\encrypted\pdf" -d 'password-to-decrypt-with'
-  ```
-   <br>
-   
--  #### To compress a PDF file:<br>
-
-  ```
-  python main.py -f "path\to\your\pdf" -c
-  ``` 
- <br>
- 
-## Complex Use Case Examples
-
--  #### Merging and encrypting PDF files:<br>
-```
-  python main.py -m -f "path\to\your\pdf" "path\to\your\pdf" -s "output-pdf.pdf" -e "password-to-encrypt-with"
-```
 <br>
+
+### IDE Dark Mode <br>
+<br>
+
+![Diagram](images/DarkmodeIDE.jpg)
+<br>
+
+### Working image of IDE <br>
+<br>
+
+![Diagram](images/WorkingIDE.jpg)
